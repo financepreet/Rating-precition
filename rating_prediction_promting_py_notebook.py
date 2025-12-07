@@ -97,17 +97,5 @@ print(f"LLM Response:\n{response.content}\n")
 
 
 
-"""# Task
-Create a Streamlit application that takes a user's review text as input, uses the previously defined Groq LLM to predict star rating and provide an explanation, and then displays the results. Provide the Python code for this Streamlit application and instructions on how to run it locally.
-
-## Generate Streamlit Application Code
-
-### Subtask:
-Generate Python code for a basic Streamlit application based on the previous conversation context, allowing users to input review text and display the predicted stars and explanation from the LLM.
-
-**Reasoning**:
-I will generate the Python code for the Streamlit application, incorporating all the specified instructions, including imports, LLM setup, UI elements, LLM invocation, response parsing, and result display.
-"""
-
 pip show langchain_groq
 
